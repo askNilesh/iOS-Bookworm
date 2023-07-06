@@ -11,6 +11,12 @@
 		EC2E3FC42A54766C00E1ED8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FC32A54766C00E1ED8D /* ContentView.swift */; };
 		EC2E3FC62A54766E00E1ED8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2E3FC52A54766E00E1ED8D /* Assets.xcassets */; };
 		EC2E3FC92A54766E00E1ED8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC2E3FC82A54766E00E1ED8D /* Preview Assets.xcassets */; };
+		EC2E3FD12A54767B00E1ED8D /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FCF2A54767B00E1ED8D /* Bookworm.xcdatamodeld */; };
+		EC2E3FD32A54782500E1ED8D /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FD22A54782500E1ED8D /* AddBookView.swift */; };
+		EC2E3FD52A547B2A00E1ED8D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FD42A547B2A00E1ED8D /* DataController.swift */; };
+		EC2E3FD72A547E5300E1ED8D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FD62A547E5300E1ED8D /* RatingView.swift */; };
+		EC2E3FD92A54806A00E1ED8D /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FD82A54806A00E1ED8D /* EmojiRatingView.swift */; };
+		EC2E3FDB2A55D0AA00E1ED8D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E3FDA2A55D0AA00E1ED8D /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		EC2E3FC32A54766C00E1ED8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC2E3FC52A54766E00E1ED8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC2E3FC82A54766E00E1ED8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC2E3FD02A54767B00E1ED8D /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		EC2E3FD22A54782500E1ED8D /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		EC2E3FD42A547B2A00E1ED8D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EC2E3FD62A547E5300E1ED8D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		EC2E3FD82A54806A00E1ED8D /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		EC2E3FDA2A55D0AA00E1ED8D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,7 @@
 		EC2E3FB52A54766C00E1ED8D = {
 			isa = PBXGroup;
 			children = (
+				EC2E3FCF2A54767B00E1ED8D /* Bookworm.xcdatamodeld */,
 				EC2E3FC02A54766C00E1ED8D /* Bookworm */,
 				EC2E3FBF2A54766C00E1ED8D /* Products */,
 			);
@@ -52,9 +65,14 @@
 			isa = PBXGroup;
 			children = (
 				EC2E3FC12A54766C00E1ED8D /* BookwormApp.swift */,
+				EC2E3FD22A54782500E1ED8D /* AddBookView.swift */,
+				EC2E3FD82A54806A00E1ED8D /* EmojiRatingView.swift */,
 				EC2E3FC32A54766C00E1ED8D /* ContentView.swift */,
+				EC2E3FD62A547E5300E1ED8D /* RatingView.swift */,
+				EC2E3FD42A547B2A00E1ED8D /* DataController.swift */,
 				EC2E3FC52A54766E00E1ED8D /* Assets.xcassets */,
 				EC2E3FC72A54766E00E1ED8D /* Preview Content */,
+				EC2E3FDA2A55D0AA00E1ED8D /* DetailView.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2E3FD52A547B2A00E1ED8D /* DataController.swift in Sources */,
+				EC2E3FDB2A55D0AA00E1ED8D /* DetailView.swift in Sources */,
 				EC2E3FC42A54766C00E1ED8D /* ContentView.swift in Sources */,
+				EC2E3FD92A54806A00E1ED8D /* EmojiRatingView.swift in Sources */,
+				EC2E3FD12A54767B00E1ED8D /* Bookworm.xcdatamodeld in Sources */,
+				EC2E3FD72A547E5300E1ED8D /* RatingView.swift in Sources */,
 				EC2E3FC22A54766C00E1ED8D /* BookwormApp.swift in Sources */,
+				EC2E3FD32A54782500E1ED8D /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC2E3FCF2A54767B00E1ED8D /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC2E3FD02A54767B00E1ED8D /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = EC2E3FD02A54767B00E1ED8D /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC2E3FB62A54766C00E1ED8D /* Project object */;
 }
